@@ -1,0 +1,25 @@
+{
+    "DESIGN_NAME": "viterbi_decoder",
+    "VERILOG_FILES": [
+        "dir::viterbi_decoder.v",
+        "dir::control.v",
+        "dir::extract_bit.v",
+        "dir::branch_metric.v",
+        "dir::add_compare_select.v",
+        "dir::memory.v",
+        "dir::traceback.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 20.0,
+    "FP_SIZING": "relative",
+    "FP_CORE_UTIL": 50,
+    "FP_ASPECT_RATIO": 1,
+    "FP_PDN_MULTILAYER": true,
+    "VDD_NETS": ["vccd1"],
+    "GND_NETS": ["vssd1"],
+    "RUN_POST_GPL_DESIGN_REPAIR": true,
+    "RUN_POST_CTS_RESIZER_TIMING": true,
+    "RUN_LVS": true,
+    "RUN_MAGIC_DRC": true,
+    "ERROR_ON_LINTER_ERRORS": false
+}
