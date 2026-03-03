@@ -1,0 +1,10 @@
+{
+    "DESIGN_NAME": "tqvp_winograd",
+    "VERILOG_FILES": "dir::*.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 15,
+    "FP_CORE_UTIL": 40,
+    "GRT_ANTENNA_ITERS": 10,
+    "RUN_HEURISTIC_DIODE_INSERTION": true,
+    "RUN_ANTENNA_REPAIR": true
+}
